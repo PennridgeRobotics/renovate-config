@@ -1,0 +1,25 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "automerge": true
+        }
+    ],
+    "platformAutomerge": true,
+    "assignAutomerge": true,
+    "assignees": [],
+    "extends": [
+        "config:base",
+        ":disableRateLimiting",
+        ":gomod",
+        ":npm",
+        ":prImmediately",
+        "replacements:all"
+    ]
+}
