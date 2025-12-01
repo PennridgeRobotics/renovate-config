@@ -14,6 +14,7 @@
     "platformAutomerge": true,
     "assignAutomerge": true,
     "assignees": [],
+    "assigneesFromCodeOwners": true,
     "extends": [
         "config:base",
         ":disableRateLimiting",
