@@ -24,6 +24,10 @@
                 "https://s01.oss.sonatype.org/content/repositories/releases",
                 "https://s01.oss.sonatype.org/content/repositories/snapshots"
             ]
+        },
+        {
+          "matchPackageNames": ["com.github.edanliahovetsky:BLine-Lib"],
+          "extractVersion": "^v?(?<version>.+)$"
         }
     ],
     "platformAutomerge": true,
