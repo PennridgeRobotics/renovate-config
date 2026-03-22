@@ -9,6 +9,21 @@
                 "digest"
             ],
             "automerge": true
+        },
+        {
+            "matchDatasources": ["maven"],
+            "registryUrls": [
+                "https://repo1.maven.org/maven2",
+                "https://plugins.gradle.org/m2/",
+                "https://maven.google.com/",
+                
+                "https://jitpack.io",
+                "https://redempt.dev",
+                "https://oss.sonatype.org/content/repositories/releases",
+                "https://oss.sonatype.org/content/repositories/snapshots",
+                "https://s01.oss.sonatype.org/content/repositories/releases",
+                "https://s01.oss.sonatype.org/content/repositories/snapshots"
+            ]
         }
     ],
     "platformAutomerge": true,
